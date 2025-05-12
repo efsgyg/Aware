@@ -1,0 +1,12 @@
+{
+  "name": "AWARE API",
+  "entryPoints": [
+    "src/index.ts",
+    "src/nodejs/index.ts",
+    "src/aware/index.ts"
+  ],
+  "out": "../aware-docs/public/api",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true
+}
